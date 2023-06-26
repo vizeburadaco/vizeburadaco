@@ -282,17 +282,19 @@ p {
     resize: vertical;
   }
 
-  .send-form button {
+  button[type="submit"] {
+    background-color: #4CAF50; /* Set the background color */
+    color: white; /* Set the text color */
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 16px; /* Set the font size */
+    border: none; /* Remove the default border */
+    cursor: pointer; /* Add a pointer cursor on hover */
     margin-bottom: 2rem;
-    border: 1px solid #ccc;
     border-radius: 4px;
   }
-
-  .send-form button:hover {
-    cursor: pointer;
-    background-color: #45885e;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  
+  button[type="submit"]:hover {
+    background-color: #45a049; /* Change the background color on hover */
   }
 
   /* Media Query for Mobile Screens */
