@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalizeCSS/normalize.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="/script.js"></script>
+    <title>vizeburada.co</title>
+</head>
+<body>
+    <div class="burgo">   
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="burgo-logo"><a href="/index.html">vizeburada.co</a></div>    
+    </div>
+
+    <div class="content-all">
+        <header>
+            <nav class="navbar">
+                <div class="container">
+                    <a class="logo" href="/index.html">vizeburada.co</a>
+                    <ul class="nav-links">
+                        <li><a href="#">HİZMETLERİMİZ</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-link" class="dropdown-toggle" onclick="toggleDropdown()" href="#">ÜLKELER</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">ABD</a></li>
+                                <li><a href="#">Rusya</a></li>
+                                <li><a href="#">Birleşik Krallık</a></li>
+                                <li><a href="#">Schengen Ülkeleri</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">VİZE İŞLEMLERİ</a></li>
+                        <li><a href="#">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+     
+    <div class="main-content">
+        <div class="background-image"></div>
+      
+        <section class="section section1">
+          <div class="section1">
+            <h2>vizeburada.co</h2>
+          </div>
+        </section>
+      
+        <section class="section section2">
+          <div class="read-more-content">
+            <h2>Hakkımızda</h2>
+            <p class="read-more-text">
+              Kamu ve özel tüm başvuru sahiplerine 10 yılı aşkın süredir vize danışmanlık hizmeti veriyoruz. ABD, Rusya, Birleşik Krallık ve Schengen Bölgesi Ülkeleri vize işlemlerini yoğunluklu olarak yapmaktayız.
+            </p>
+            <input type="checkbox" id="read-more-toggle" class="read-more-toggle">
+            <label for="read-more-toggle" class="read-more-button">Devamı...</label>
+            <p id="read-more" class="hidden">
+              Günümüzde yaşanan vize süreçlerindeki sıkıntıları biliyor ve bunlara çözümler üretiyoruz. Doğru başvuru dosyası ve seyahat planı ile vize süreçlerinin olumlu sonuçlanmasını sağlıyoruz. Tüm vize süreçleri ile ilgili danışanlarımıza bilgi paylaşımında bulunup, doğru ülke ve doğru vize türüne başvuruyoruz. Başvuru sonrası süreç takibi ve seyahat tarihinin yaklaşması gibi durumlarda, konsolosluklarla iletişime geçmeniz için aracılık ediyoruz. Kısacası vize başvuru işlemleri için en doğru adres vizeburada.co.
+            </p>
+            <p id="read-more" class="hidden">
+                Tüm soru ve sorunlarınız için Whatsapp hattımız 0090 535 555 55 55 veya iletişim kutusu aracılığıyla mesajlarınızı bize iletebilirsiniz.
+              </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="send-form">
+        <h2>İletişim Formu</h2>
+        <p>Bize buradan yazın, en kısa zamanda size dönüş yapalım!</p>
+        <form id="contact-form">
+          <label for="name">İsim:</label>
+          <input type="text" id="name" name="name" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        
+          <label for="subject">Konu:</label>
+          <input type="text" id="subject" name="subject" required>
+        
+          <label for="message">Mesajınız:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        
+          <button type="submit">Gönder</button>
+        </form>
+      </div>
+      
+      
+      
+            
+
+    <footer>
+        <div class="footer-container">
+          <div class="social-media-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <p>&copy; 2023 vizeburada.co - Tüm hakları saklıdır.</p>
+        </div>
+      </footer>
+      
+    <a href="https://api.whatsapp.com/send?phone=0987654321&text=Hello%21%20." class="floating" target="_blank">
+        <i class="fa fa-whatsapp float-button"></i>
+        <span class="hover-text">Whatsapp</span>
+    </a> 
+</body>
+</html>
