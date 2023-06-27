@@ -54,7 +54,7 @@ body {
     position: relative;
     color: #000; /* Replace with your desired link color */
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 3rem;
     padding-right: 0px;
     /* Add any additional styles as needed */
 }
@@ -442,6 +442,11 @@ p {
   
   .nav-links.active li {
     margin-bottom: 10px;
+    position: relative;
+    color: #000; /* Replace with your desired link color */
+    text-decoration: none;
+    margin-right: -3rem;
+    padding-right: 0px;
   }
 
   .dropdown {
